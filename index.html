@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Checkout Order Page</title>
+      <!-- add frames script -->
+      <script src="https://cdn.checkout.com/js/framesv2.min.js"></script>
+      <!-- link to the js file -->
+      <script type="text/javascript" src="checkout.js"></script>
+      <!-- link to the css file -->
+      <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+      <div class="grid-container">
+         <div class="grid-item1">
+            <form id="payment-form" method="POST" action="https://merchant.com/charge-card">
+               <!-- user details fields -->
+               <p>User Details:</p>
+               <input name="name" type="text" placeholder="name" required="true"/>
+               <input name="email" type="email" placeholder="email" required="true"/>
+               <!-- payment details fields -->
+               <p>Payment Details:</p>
+               <div>
+                  <div class="card-frame">
+                  <!-- form will be added here -->
+                  </div>
+                  <!-- add submit button -->  
+                  <button id="pay-button" disabled>
+                  PAY
+                  </button>
+               </div>
+               <p class="success-payment-message"></p>
+            </form>
+         </div>
+         <div class="grid-item2">
+            <div class="summary">
+              <!-- user cart summary -->
+               <div class="center">Summary:</div>
+               <div class="summary-cart">
+                  <div>
+                     <img src="img/iphone.jpg" alt="Iphone Image" width="90" height="80">
+                  </div>
+                  <div class="summary-product">
+                     <div class="summary-product-name">Iphone XS</div>
+                     <div class="summary-product-description">64 GB White</div>
+                  </div>
+                  <div class="summary-total">850£</div>
+               </div>
+            </div>
+            <div class="total">
+              <!-- user cart total -->
+               <div class="summary-cart-order">
+                  <div>Shipping</div>
+                  <div>10£</div>
+               </div>
+               <div class="summary-cart-order">
+                  <div>Total</div>
+                  <div>860£</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
