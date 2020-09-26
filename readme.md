@@ -16,9 +16,9 @@ On the chekout form I made the email field required and added JS validation that
 
 In addition for the success and fail HTML pages, I have hosted both files on my GitHub pages in order to use the public URLs within the Pay3D API call.
 
-Success Page: https://justinplesea.github.io/checkout.com/success.html
+Success Page: https://justinplesea.github.io/checkoutpage/success.html
 
-Fail Page: https://justinplesea.github.io/checkout.com/fail.html
+Fail Page: https://justinplesea.github.io/checkoutpage/fail.html
 
 On the successful page I'm displaying on the screen the amount and currency for the transaction.
 
