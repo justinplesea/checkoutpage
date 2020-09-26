@@ -7,8 +7,10 @@ This project contains the checkout, success and fail pages
 For this project I have used the following languages HTML, CSS and JS.
 
 On the checkout form I made the name field required and added JS validation that will expect from the user to type a name that is equal or greater than 1 character.
-	-The field will be higlited in red if the 1st character inputed is a space.
-	-The field will be higlited in green if there is 1 or more characters in the field.
+
+The field will be higlited in red if the 1st character inputed is a space.
+	
+The field will be higlited in green if there is 1 or more characters in the field.
 
 On the chekout form I made the email field required and added JS validation that will expect from the user to type a valid email address.
 
