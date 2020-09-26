@@ -15,6 +15,7 @@ On the chekout form I made the email field required and added JS validation that
 In addition for the success and fail HTML pages, I have hosted both files on my GitHub pages in order to use the public URLs within the Pay3D API call.
 
 Success Page: https://justinplesea.github.io/checkout.com/success.html
+
 Fail Page: https://justinplesea.github.io/checkout.com/fail.html
 
 On the successful page I'm displaying on the screen the amount and currency for the transaction.
@@ -26,7 +27,9 @@ For my validation I have used the following information/test card details:
 Success Payment:
 ------------------
 Name: Task Test One
+
 Email: tasktestone@tasktestone.co.uk
+
 Card number:4242424242424242
 CVV:100
 Card type:Visa
@@ -35,7 +38,9 @@ Card type:Visa
 Failed Payment:
 ------------------
 Name: Task Test Two
+
 Email: tasktesttwo@tasktesttwo.com
+
 Card number:5309961755464047
 CVV:100
 Card type:Mastercard
